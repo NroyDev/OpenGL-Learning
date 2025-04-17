@@ -1,0 +1,5 @@
+用mingw64 compile時候好像要這個dll
+因為是32bit的compile 所以他要的是32bit的dll
+libgcc_s_sjlj-1從下面的位置抓出來的
+C:\mingw64\x86_64-w64-mingw32\lib32
+libstdc++-6也是
