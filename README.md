@@ -1,4 +1,4 @@
-# OpenGL Learning Journey (OpenGL 學習筆記)
+# OpenGL Learning Journey
 
 ![C++](https://img.shields.io/badge/C++-11%20%2F%2017-00599C?style=flat-square&logo=c%2B%2B)
 ![OpenGL](https://img.shields.io/badge/OpenGL-3.3%20Core%20%26%202.1-5586A4?style=flat-square&logo=opengl)
@@ -7,7 +7,7 @@
 ![GLM](https://img.shields.io/badge/GLM-1.0.1-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20(MinGW)-0078D6?style=flat-square&logo=windows)
 
-本專案記錄了我跟隨網路教學（包含知名教學 [LearnOpenGL](https://learnopengl.com/) 以及 [Lazy Foo' Productions](https://lazyfoo.net/tutorials/OpenGL/)）自主學習電腦圖形學與 OpenGL 的完整實作軌跡與學習筆記。
+本專案記錄了我跟隨網路教學（包含知名教學 [LearnOpenGL](https://learnopengl.com/) 以及 [Lazy Foo' Productions](https://lazyfoo.net/tutorials/OpenGL/)）自主學習電腦圖形學與 OpenGL 的完整實作軌跡。
 
 從早期 **OpenGL 2.1 固定管線 (Fixed-Function Pipeline)** 的矩陣堆疊與即時模式，全面過渡至 **OpenGL 3.3+ 核心模式 (Programmable Pipeline / Core Profile)**，逐步實現自定義著色器、現代緩衝物件、3D 矩陣轉換、FPS 漫遊攝影機以及完整的馮氏光照與多光源系統。
 
@@ -28,9 +28,6 @@
   - **馮氏光照模型 (Phong Lighting Model)**：環境光 (Ambient)、漫反射光 (Diffuse)、鏡面高光 (Specular) 與法線矩陣校正。
   - **材質 (Material) 與光照貼圖 (Lighting Maps)**：使用漫反射貼圖（Diffuse Map）與鏡面高光貼圖（Specular Map）控制物體表面細節。
   - **三種投光物實作**：平行光 (Directional Light / 太陽光)、點光源 (Point Light / 距離衰減)、聚光燈 (Spot Light / 內外圓錐平滑切光角)。
-- **詳盡的中文筆記與心得 (`概念.cpp` & `學習.txt`)**：
-  - 專案各資料夾均內嵌詳細觀念註解，詳載圖形學數學推導、OpenGL 內部狀態機運作細節與常見踩坑經驗。
-
 ---
 
 ## 圖形管線與座標變換流程
